@@ -1,0 +1,159 @@
+{
+  "UIConfiguration": {
+      "AnalogClock": {
+          "timeZone": {
+              "value": "Europe/Istanbul",
+              "description": "Saatin çalıştığı zaman dilimi"
+          },
+          "refreshRate": {
+              "value": 1000,
+              "unit": "milliseconds",
+              "description": "Saati güncelleme hızı"
+          },
+          "clockAppearance": {
+              "size": {
+                  "value": "150",
+                  "description": "Analog saatin boyutu (dp cinsinden)."
+              },
+              "backgroundColor": {
+                  "value": "#FFFFFF",
+                  "description": "Saatin arka plan rengi."
+              },
+              "circle": {
+                  "borderColor": "#D3D3D3",
+                  "borderWidth": "4",
+                  "radius": "60",
+                  "description": "Dış çemberin özellikleri: renk, genişlik ve yarıçap."
+              }
+          },
+          "hands": {
+              "hourHand": {
+                  "color": "#000000",
+                  "length": "45",
+                  "width": "6",
+                  "description": "Saat ibresinin özellikleri: renk, uzunluk ve döndürme açısı."
+              },
+              "minuteHand": {
+                  "color": "#808080",
+                  "length": "55",
+                  "width": "4",
+                  "description": "Dakika ibresinin özellikleri: renk, uzunluk ve döndürme açısı."
+              },
+              "secondHand": {
+                  "color": "#E91E63",
+                  "length": "52",
+                  "width": "2",
+                  "description": "Saniye ibresinin özellikleri: renk, uzunluk ve döndürme açısı."
+              }
+          },
+          "text": {
+              "city": {
+                  "value": "Ankara",
+                  "fontSize": "24",
+                  "fontWeight": "Bold",
+                  "color": "#E91E63",
+                  "description": "Saatin altında gösterilen şehir adı."
+              },
+              "timeDisplay": {
+                  "format": "hh:mm a",
+                  "fontSize": "27",
+                  "fontWeight": "700",
+                  "description": "Saatin altında gösterilen dijital saat formatı ve stil ayarları."
+              },
+              "country": {
+                  "value": "Türkiye",
+                  "fontSize": "16",
+                  "color": "#808080",
+                  "description": "Saatin altında gösterilen ülke adı."
+              }
+          }
+      },
+      "DateTimeSettings": {
+          "timeFormat": {
+              "pattern": "HH:mm:ss",
+              "locale": "tr",
+              "timeZone": "Europe/Istanbul",
+              "description": "Saat formatı, dil ve zaman dilimi ayarları."
+          },
+          "dateFormat": {
+              "pattern": "dd MMMM yyyy",
+              "locale": "tr",
+              "description": "Tarih formatı ve dil ayarları."
+          }
+      },
+      "LeftSideBox": {
+          "box": {
+              "width": "150",
+              "height": "0.3",
+              "backgroundColor": "#FFFFFF",
+              "padding": "7",
+              "description": "Kutunun boyutu, arka plan rengi ve dolgu ayarları."
+          },
+          "image": {
+              "url": "http://10.0.2.2:3000/uploads/logos/logo3.png",
+              "contentDescription": "Şirket Logosu",
+              "modifier": {
+                  "fillWidth": 1,
+                  "padding": "16"
+              },
+              "description": "Görselin URL'si, içerik açıklaması ve stil ayarları."
+          },
+          "analogClock": {
+              "modifier": {
+                  "padding": "0",
+                  "description": "Analog saatin stil ayarları (dolgu)."
+              }
+          }
+      },
+      "ScrollingSubtitles": {
+          "subtitles": {
+              "list": [
+                  "Leonardo Türkiye’nin misyonu; savunma, havacılık, uzay, güvenlik, bilgi ve elektronik sistemler alanlarındaki mühendislik, üretim, ürün desteği ve proje yönetimi yetenekleri ile yurtiçi ve yurtdışı müşterilerinin ihtiyaçlarını, özgün ürün ve çözümlerle karşılamaktır.",
+                  "Leonardo Türkiye’nin vizyonu; yurtiçi ve yurtdışı paydaşlarına değer sunumunu sürekli artırarak tercih edilen ve büyüyen bir firma olmaktır."
+              ],
+              "description": "Sağdan sola kayan altyazı listesi."
+          },
+          "scrollSettings": {
+              "scrollSpeed": {
+                  "value": 100,
+                  "description": "Altyazı kaydırma hızı. Daha yüksek değerler altyazıyı daha yavaş kaydırır."
+              }
+          },
+          "appearance": {
+              "textColor": {
+                  "value": "#FFFFFF",
+                  "description": "Altyazı metninin rengi (hex kodu ile tanımlanmış)."
+              },
+              "backgroundColor": {
+                  "value": "#e8042c",
+                  "description": "Altyazı kutusunun arka plan rengi (hex kodu ile tanımlanmış)."
+              },
+              "textSize": {
+                  "value": "33",
+                  "description": "Altyazı metninin boyutu."
+              },
+              "padding": {
+                  "value": "8",
+                  "description": "Altyazı kutusunun iç dolgusu."
+              }
+          },
+          "positioning": {
+              "horizontalAlignment": {
+                  "value": "center",
+                  "description": "Altyazıların yatay hizalaması. Seçenekler: left, center, right."
+              },
+              "verticalAlignment": {
+                  "value": "center",
+                  "description": "Altyazıların dikey hizalaması. Seçenekler: top, center, bottom."
+              }
+          }
+      },
+      "VideoPlayer": {
+          "width": 1,
+          "height": 1
+      },
+      "ServerIp":{
+        "ip":"10.0.2.2"
+      }
+  }
+}
